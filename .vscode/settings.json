@@ -1,0 +1,20 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "GPXParser_20200512.jar",
+        "guava-31.1-jre.jar",
+        "guava-gwt-31.1-jre.jar",
+        "j2objc-annotations-1.3.jar",
+        "jsinterop-annotations-2.0.0.jar",
+        "jsr305-3.0.2.jar",
+        "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+        "base-1.0.0.jar",
+        "checker-qual-3.12.0.jar",
+        "elemental2-promise-1.1.0.jar",
+        "error_prone_annotations-2.11.0.jar",
+        "failureaccess-1.0.1.jar"
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
+}
