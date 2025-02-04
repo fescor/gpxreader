@@ -1,18 +1,8 @@
-## Getting Started
+This is a simple Map Reduce framework implemented in Java for the course project of Distributed 
+System at the Computer science department in Athens University of Economics and Buisiness.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#Implementation
+Worker , Worker2 , Worker3 are the reducers and MasterMain is the Maper.MasterMain collects 
+Data from the Application and sends to the workers chunks of that data to do some calculations
+who then return the results back to MasterMain and master main is responsible for
+sorting , grouping and forwarding back the data to the application. 
